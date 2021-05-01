@@ -1,8 +1,6 @@
 arr = []
-i = 0
-name = "aallexx"
-print(name.count(name[i]))
-"""
+
+
 for _ in range(6):
     arr.append(list(map(int, input().rstrip().split())))
 
@@ -16,4 +14,4 @@ def hourglass():
      print(max(arr2))
 if __name__ == "__main__":
     hourglass()
-"""       
+    
