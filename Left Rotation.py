@@ -21,7 +21,11 @@ for i in a:
    arr.append(i)
 
 def rotLeft(a, d):
+<<<<<<< HEAD
   
+=======
+   
+>>>>>>> bb4dee632f7ba40081fd47f4bd4f1033e6577977
     for i in range(n):
         a[i-d] = arr[i]
         

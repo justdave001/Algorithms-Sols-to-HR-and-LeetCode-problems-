@@ -1,11 +1,4 @@
-i = 3
-arrr = ([], )*i
-arrr[0] = [2,3]
-arrr[1]= [2,4]
-arrr[2] = [2,5]
-print(arrr)
-     
-"""
+
 def gettotalx():
     
      nandm = list(map(int, input().rstrip().split()))
@@ -26,10 +19,9 @@ def gettotalx():
          if (j%arr[i]==0):
              arrr.append(j)
      neww = set(arrr)
-     print(neww)
-    # print(len(arrr))
+     return neww
     
 if __name__ == "__main__":
     gettotalx()
 
-"""
+

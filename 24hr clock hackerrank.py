@@ -1,12 +1,4 @@
-"""
-string  = "eat 5PM 5AM BOY"
-print(string.strip("M"))
 
-string = 'xoxo love xoxo'
-print(string.strip("vex"))
-s = "A"
-SS = "M"
-"""
 s = input()
 def timeConversion(s):
     #
