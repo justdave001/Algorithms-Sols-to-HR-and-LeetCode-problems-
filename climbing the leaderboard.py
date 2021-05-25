@@ -32,15 +32,15 @@ def sorting(arr, arr1):
    
    
     
-    w = 0
-    while w < (len(reverse1)-1):
+   
+    for w in reverse1:
         final = [] 
         for i,x in zipped:
-            if reverse1[w] >= x:
+            if w >= x:
               final.append(i)
         if len(final) > 0:
          final2.append(min(final))
-        w += 1  
+          
     for i in reverse1:
       final = []  
       if i<min(reverse):
@@ -48,15 +48,15 @@ def sorting(arr, arr1):
             final.append(counter)
     if len(final) > 0:
      final2.append(min(final))
+    
     kl = list(reversed(final2))
-    i = 0
-    while i < len(kl):
-        print(kl[i])
-        i += 1
+    for i in kl:
+        print(i)
 
 if __name__ == "__main__":
     sorting(arr, arr1)
-"""
+"""   
+   
 def climbingLeaderboard(ranked, player):
     ranked = sorted(list(set(ranked)), reverse=True)
     player = sorted(player, reverse=True)
@@ -72,4 +72,3 @@ def climbingLeaderboard(ranked, player):
         ans.append(j+1)
         
     return ans[::-1]
-   
